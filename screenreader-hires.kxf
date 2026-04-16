@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <object type="TAForm" name="hWnd">
 	<properties>
-		<property name="Left" vt="Int16">297</property>
-		<property name="Top" vt="Int16">374</property>
+		<property name="Left" vt="Int16">251</property>
+		<property name="Top" vt="Int16">224</property>
 		<property name="Width" vt="Int16">392</property>
-		<property name="Height" vt="Int16">260</property>
+		<property name="Height" vt="Int16">247</property>
 		<property name="Caption" vt="String">Typer</property>
 		<property name="Color" vt="Ident">clBtnFace</property>
 		<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
@@ -34,7 +34,7 @@
 			<properties>
 				<property name="Left" vt="Int8">8</property>
 				<property name="Top" vt="Int8">8</property>
-				<property name="Width" vt="Int8">113</property>
+				<property name="Width" vt="Int8">41</property>
 				<property name="Height" vt="Int16">188</property>
 				<property name="ItemHeight" vt="Int8">13</property>
 				<property name="Items.Strings" vt="List">
@@ -59,7 +59,7 @@
 		</object>
 		<object type="TAList" name="List2">
 			<properties>
-				<property name="Left" vt="Int16">128</property>
+				<property name="Left" vt="Int8">56</property>
 				<property name="Top" vt="Int8">8</property>
 				<property name="Width" vt="Int16">129</property>
 				<property name="Height" vt="Int16">188</property>
@@ -90,6 +90,96 @@
 				<property name="Height" vt="Int16">185</property>
 				<property name="Caption" vt="String">ON</property>
 				<property name="TabOrder" vt="Int8">2</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342373888</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAButton" name="Button2">
+			<properties>
+				<property name="Left" vt="Int16">192</property>
+				<property name="Top" vt="Int8">8</property>
+				<property name="Width" vt="Int8">33</property>
+				<property name="Height" vt="Int8">57</property>
+				<property name="Caption" vt="String">+</property>
+				<property name="TabOrder" vt="Int8">3</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342373888</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAButton" name="Button3">
+			<properties>
+				<property name="Left" vt="Int16">224</property>
+				<property name="Top" vt="Int8">8</property>
+				<property name="Width" vt="Int8">33</property>
+				<property name="Height" vt="Int8">57</property>
+				<property name="Caption" vt="String">-</property>
+				<property name="TabOrder" vt="Int8">4</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342373888</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAButton" name="Button4">
+			<properties>
+				<property name="Left" vt="Int16">224</property>
+				<property name="Top" vt="Int8">64</property>
+				<property name="Width" vt="Int8">33</property>
+				<property name="Height" vt="Int8">57</property>
+				<property name="Caption" vt="String">?</property>
+				<property name="TabOrder" vt="Int8">5</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342373888</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAButton" name="Button5">
+			<properties>
+				<property name="Left" vt="Int16">192</property>
+				<property name="Top" vt="Int8">64</property>
+				<property name="Width" vt="Int8">33</property>
+				<property name="Height" vt="Int8">57</property>
+				<property name="Caption" vt="String">?</property>
+				<property name="TabOrder" vt="Int8">6</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342373888</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAButton" name="Button6">
+			<properties>
+				<property name="Left" vt="Int16">192</property>
+				<property name="Top" vt="Int8">120</property>
+				<property name="Width" vt="Int8">33</property>
+				<property name="Height" vt="Int8">73</property>
+				<property name="Caption" vt="String">REN</property>
+				<property name="TabOrder" vt="Int8">7</property>
+				<property name="Color" vt="Ident">clBtnFace</property>
+				<property name="CtrlStyle" vt="Int32">1342373888</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TAButton" name="Button7">
+			<properties>
+				<property name="Left" vt="Int16">224</property>
+				<property name="Top" vt="Int8">120</property>
+				<property name="Width" vt="Int8">33</property>
+				<property name="Height" vt="Int8">73</property>
+				<property name="Caption" vt="String">SAVE</property>
+				<property name="TabOrder" vt="Int8">8</property>
 				<property name="Color" vt="Ident">clBtnFace</property>
 				<property name="CtrlStyle" vt="Int32">1342373888</property>
 				<property name="CtrlExStyle" vt="Int8">0</property>
